@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-29T18:38:52 IST" name="group testing" finished-at="2025-04-29T18:38:58 IST" duration-ms="5977">
+    <groups>
+      <group name="smoke">
+        <method signature="AdminUsersTest.veifyTheAdditionOfNewAdminuser()[pri:0, instance:testScripts.AdminUsersTest@4d5d943d]" name="veifyTheAdditionOfNewAdminuser" class="testScripts.AdminUsersTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-29T18:38:52 IST" name="mytest" finished-at="2025-04-29T18:38:58 IST" duration-ms="5977">
+      <class name="testScripts.AdminUsersTest">
+        <test-method is-config="true" signature="intializeBrowserMethod(java.lang.String)[pri:0, instance:testScripts.AdminUsersTest@4d5d943d]" started-at="2025-04-29T18:38:52 IST" name="intializeBrowserMethod" finished-at="2025-04-29T18:38:55 IST" duration-ms="2810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBrowserMethod -->
+        <test-method signature="veifyTheAdditionOfNewAdminuser()[pri:0, instance:testScripts.AdminUsersTest@4d5d943d]" started-at="2025-04-29T18:38:55 IST" name="veifyTheAdditionOfNewAdminuser" finished-at="2025-04-29T18:38:58 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veifyTheAdditionOfNewAdminuser -->
+      </class> <!-- testScripts.AdminUsersTest -->
+    </test> <!-- mytest -->
+  </suite> <!-- group testing -->
+</testng-results>
